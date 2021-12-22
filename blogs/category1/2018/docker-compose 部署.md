@@ -1,0 +1,32 @@
+---
+title: docker-compose 部署
+date: 2018-12-15
+tags:
+ - tag1
+categories:
+ -  category1
+---
+
+### 特别说明
+● Docker Compose 是 Docker 官方编排项目之一，负责快速的部署分布式应用
+● 环境要求： 4C/16G （涉及全部服务都会启动，可酌情参考 docker-compose.yaml 删除不需要的服务）
+### 安装 Docker （centos7）
+```shell
+# 使用daocloud 的一键安装脚本
+curl -sSL https://get.daocloud.io/docker | sh
+
+# 安装 daocloud 加速器，避免dockerhub 网络问题
+curl -sSL https://get.daocloud.io/daotools/set_mirror.sh | sh -s http://f1361db2.m.daocloud.io
+
+# 启动docker服务
+systemctl start docker
+
+# 由于 pig v3 使用镜像分层技术，Docker 版本必须为 19.x+
+docker --version
+```
+
+### 安装 docker-compose
+```shell
+curl -L https://get.daocloud.io/docker/compose/releases/download/1.29.2/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
+```
