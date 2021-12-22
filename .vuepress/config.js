@@ -49,7 +49,7 @@ module.exports = {
         title: '蜡笔',
         desc: '开启博客之旅...',
         email: '779135807@qq.com',
-        link: 'https://ib-log-7zon3nqc1-zhangxrxyy.vercel.app/'
+        link: 'https://ib-log-zhangxrxyy.vercel.app/'
       },
       {
         title: 'vuepress',
