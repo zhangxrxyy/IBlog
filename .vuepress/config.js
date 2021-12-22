@@ -59,6 +59,7 @@ module.exports = {
       },
     ],
     logo: '/logo.png',
+
     // 搜索设置
     search: true,
     searchMaxSuggestions: 10,
