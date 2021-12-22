@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: vuepress-theme-reco
-tagline: A simple and beautiful vuepress blog theme.
+heroText: 蜡笔
+tagline: 开启博客之旅...
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
