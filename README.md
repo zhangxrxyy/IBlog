@@ -2,7 +2,7 @@
 home: true
 heroText: 蜡笔
 tagline: 开启博客之旅...
-# heroImage: /hero.png
+# heroImage: /logo.png
 # heroImageStyle: {
 #   maxWidth: '600px',
 #   width: '100%',

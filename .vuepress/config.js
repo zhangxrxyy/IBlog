@@ -70,7 +70,7 @@ module.exports = {
     // 作者
     author: '蜡笔',
     // 作者头像
-    authorAvatar: '/avatar.png',
+    authorAvatar: '/logo.png',
     // 备案号
     record: 'xxxx',
     // 项目开始时间
